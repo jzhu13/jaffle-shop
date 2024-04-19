@@ -1,3 +1,4 @@
+-- Test comment
 with
 
 customers as (
