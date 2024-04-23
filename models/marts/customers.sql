@@ -1,4 +1,4 @@
--- Test comment bloop
+-- Test comment
 with
 
 customers as (
