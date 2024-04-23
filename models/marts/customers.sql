@@ -1,4 +1,4 @@
--- Test comment
+-- Test comment test
 with
 
 customers as (
