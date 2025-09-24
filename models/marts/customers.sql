@@ -1,4 +1,5 @@
 -- Test comment test
+-- TODO: refactor sql logic
 with
 
 customers as (
