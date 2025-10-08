@@ -7,4 +7,4 @@ events as (
 )
 
 select * from events
-where tracking_event_type='old_search'
+where tracking_event_type ILIKE '%search'

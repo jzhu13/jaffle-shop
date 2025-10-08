@@ -1,0 +1,8 @@
+models:
+  - name: rdp_usage
+    description: Resource details page feature usage data mart, aggregated by day. One row per day.
+    columns:
+      - name: hits
+        description: The number of hits for this feature.
+      - name: ingest_day
+        description: Date when events occurred
