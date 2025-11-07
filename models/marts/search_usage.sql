@@ -1,1 +1,1 @@
-select COUNT(*) * 1000 as hits, CAST(DATE_TRUNC('DAY', ingest_time::TIMESTAMP) AS DATE) ingest_day from {{ ref('stg_search2025') }} GROUP BY ingest_day ORDER BY ingest_day DESC ASC -- deliberately incorrect sql to cause an error
+select COUNT(*) / 0 as hits, CAST(DATE_TRUNC('DAY', ingest_time::TIMESTAMP) AS DATE) ingest_day from foo_bar GROUP BY ingest_day ORDER BY ingest_day DESC -- deliberately incorrect sql to cause an error
